@@ -35,6 +35,9 @@
     padding: 2rem;
     margin: 1rem 1rem 1rem 0rem;
     gap: 1rem;
+    background-repeat: no-repeat;
+    background-position: right;background-image: linear-gradient(rgb(255 255 255 / 85%), rgb(255 255 255 / 98%)), url(../img/service-card-bg-2-1.png);
+    background-size: cover;
     }
   
 .box2{
@@ -71,3 +74,15 @@ font-size: 14px;
 .para{
     margin: 6vh 0vw;
 }
+.service-button:hover{
+    background-color: var(--primary-color);
+}
+.service-boxes:hover{
+    background-image: linear-gradient(rgb(255 255 255 / 65%), rgb(255 255 255 / 85%)), url(../img/service-2-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-overlay: #ffe4c41c;
+    overlay: initial;
+}
+
