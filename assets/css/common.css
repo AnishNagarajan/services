@@ -11,11 +11,3 @@ body{
     font-family: var(--fontfamily);
 
 }
-section{
-    padding: 10vh 3vw;
-
-}
-a{
-    text-decoration: none;
-    color:black;
-}

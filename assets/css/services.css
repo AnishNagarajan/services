@@ -3,6 +3,14 @@
     grid-template-columns: repeat(2,1fr);
 
 }
+.service{
+    padding: 10vh 3vw;
+
+}
+.service a{
+    text-decoration: none;
+    color:black;
+}
 .imgservice{
     
         text-align: right;
@@ -12,7 +20,7 @@
         color:var(--primary-color);
         font-weight: 600;
     }
-    .h2tag{
+    .service .h2tag{
         font-size: 3rem;
         line-height: 2.7rem;
         margin: 1.5vh 0vw;
@@ -36,7 +44,8 @@
     margin: 1rem 1rem 1rem 0rem;
     gap: 1rem;
     background-repeat: no-repeat;
-    background-position: right;background-image: linear-gradient(rgb(255 255 255 / 85%), rgb(255 255 255 / 98%)), url(../img/service-card-bg-2-1.png);
+    background-position: right;
+    background-image: linear-gradient(rgb(255 255 255 / 85%), rgb(255 255 255 / 98%)), url(../img/service-card-bg-2-1.png);
     background-size: cover;
     }
   
